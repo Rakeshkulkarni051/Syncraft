@@ -41,46 +41,22 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyA0zNQK9i1Qaqi4ynaGJjt8MkRgEAnD6H0',
-    appId: '1:744362264358:web:4101b2bcc0aa25955023e7',
-    messagingSenderId: '744362264358',
-    projectId: 'syncraft-69b84',
-    authDomain: 'syncraft-69b84.firebaseapp.com',
-    storageBucket: 'syncraft-69b84.firebasestorage.app',
+   // Add your api keys hear
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyD7zHMB-7wZskHtN3eXFwdTqQPUdNRFtZQ',
-    appId: '1:744362264358:android:87ac12ceea20000f5023e7',
-    messagingSenderId: '744362264358',
-    projectId: 'syncraft-69b84',
-    storageBucket: 'syncraft-69b84.firebasestorage.app',
+    // Add your api keys hear
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBDdlcTPBjd1b0CzDXA-MpnZriZkNHPcPY',
-    appId: '1:744362264358:ios:b4719357481626385023e7',
-    messagingSenderId: '744362264358',
-    projectId: 'syncraft-69b84',
-    storageBucket: 'syncraft-69b84.firebasestorage.app',
-    iosBundleId: 'com.example.syncraft',
+    // Add your api keys hear
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBDdlcTPBjd1b0CzDXA-MpnZriZkNHPcPY',
-    appId: '1:744362264358:ios:b4719357481626385023e7',
-    messagingSenderId: '744362264358',
-    projectId: 'syncraft-69b84',
-    storageBucket: 'syncraft-69b84.firebasestorage.app',
-    iosBundleId: 'com.example.syncraft',
+   // Add your api keys hear
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyA0zNQK9i1Qaqi4ynaGJjt8MkRgEAnD6H0',
-    appId: '1:744362264358:web:e56bed69ae526e345023e7',
-    messagingSenderId: '744362264358',
-    projectId: 'syncraft-69b84',
-    authDomain: 'syncraft-69b84.firebaseapp.com',
-    storageBucket: 'syncraft-69b84.firebasestorage.app',
+   // Add your api keys hear
   );
 }

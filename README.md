@@ -13,7 +13,7 @@ It allows multiple users to interact with a shared canvas seamlessly while ensur
 - 🖱️ Drag and move shapes smoothly
 - 🔄 Real-time synchronization across devices
 - 📡 Offline-first support (works without internet)
-- 🔁 Automatic sync on reconnect
+- 🔁 Automatic sync on internet reconnect 
 - ⚡ Conflict-free updates using CRDT-inspired logic
 
 ---

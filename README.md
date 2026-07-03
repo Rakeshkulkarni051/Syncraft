@@ -1,4 +1,4 @@
-# 🚀 Syncraft
+# Syncraft
 
 **Syncraft** is a cross-platform collaborative whiteboard built with Flutter and Firebase, demonstrating real-time synchronization and offline-first behavior using a simplified CRDT (Conflict-free Replicated Data Type) model.
 
@@ -6,7 +6,7 @@ It allows multiple users to interact with a shared canvas seamlessly while ensur
 
 ---
 
-# 🎯 Features
+# Features
 
 - ✏️ Draw shapes (Rectangle, Circle, Line, Text)
 - 🎨 Change colors and edit objects
@@ -18,7 +18,7 @@ It allows multiple users to interact with a shared canvas seamlessly while ensur
 
 ---
 
-# 🧠 How It Works
+# How It Works
 
 Syncraft combines:
 
@@ -28,7 +28,7 @@ Syncraft combines:
 
 ---
 
-# 🔥 CRDT Implementation (Core Idea)
+# CRDT Implementation (Core Idea)
 
 Each shape in Syncraft is treated as an **independent replicated object**.
 
@@ -45,7 +45,7 @@ Every update includes:
 
 ---
 
-## 🧩 Merge Strategy
+## Merge Strategy
 
 When conflicts occur (multiple users update same shape):
 
@@ -55,7 +55,7 @@ When conflicts occur (multiple users update same shape):
 
 ---
 
-## ✅ Why This Works
+## Why This Works
 
 This ensures:
 
@@ -65,13 +65,13 @@ This ensures:
 
 ---
 
-## 🧠 In Simple Terms
+## In Simple Terms
 
 > Every device can update independently, and the system automatically merges changes without conflicts.
 
 ---
 
-# 🏗 Architecture
+# Architecture
 
 ```
 Flutter UI (Canvas)
@@ -85,7 +85,7 @@ Other Devices
 
 ---
 
-# 📱 Demo Scenario
+#Demo Scenario
 
 1. Open Syncraft on mobile and web  
 2. Draw shapes → instantly visible on both  
@@ -95,7 +95,7 @@ Other Devices
 
 ---
 
-# ⚙️ Tech Stack
+# Tech Stack
 
 - Flutter (Cross-platform UI)
 - Firebase Firestore (Realtime DB)
@@ -104,7 +104,7 @@ Other Devices
 
 ---
 
-# 🚀 Getting Started
+# Getting Started
 
 ## 1. Clone the repository
 
@@ -149,7 +149,7 @@ flutter run
 
 ---
 
-# 🎓 Academic Context
+# Academic Context
 
 This project was developed as part of a **Technical Seminar** to demonstrate:
 
@@ -159,7 +159,7 @@ This project was developed as part of a **Technical Seminar** to demonstrate:
 
 ---
 
-# 🏆 Key Learning
+# Key Learning
 
 - Designing **local-first applications**
 - Handling **concurrent updates**
@@ -168,7 +168,7 @@ This project was developed as part of a **Technical Seminar** to demonstrate:
 
 ---
 
-# 📌 Future Improvements
+# Future Improvements
 
 - Full CRDT implementation (beyond LWW)
 - Multi-board collaboration
@@ -178,7 +178,7 @@ This project was developed as part of a **Technical Seminar** to demonstrate:
 
 ---
 
-# 👨‍💻 Author
+# Author
 
 **Rakesh Kulkarni**
 
